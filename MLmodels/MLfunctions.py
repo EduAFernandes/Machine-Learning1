@@ -1,3 +1,5 @@
+# Organizing every function i'm using, in a different file
+
 import numpy as np
 import pandas as pd
 import math
