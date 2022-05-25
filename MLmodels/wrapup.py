@@ -1,3 +1,9 @@
+# time to import and call every function .
+# then acctually train a model by assigning epochs and learnig rates randomly.
+# then printing out the different results (trainingloss.pdf) in the shape of a line.
+# Finally proceeding to change both epochs and learning rate values in pursuit of a smother curve (gradient descent).
+
+
 import numpy as np
 import pandas as pd
 import math
@@ -37,7 +43,7 @@ def train_model(data, weights, bias, l_rate, epochs):
 train_model(data, weights, bias, l_rate, epochs)
 
 
-# ploting the fucker
+# plotting visual feedback
 df = pd.DataFrame(epoch_loss)
 df_plot = df.plot(kind="line", grid=True).get_figure()
 df_plot.savefig("Training_Loss.pdf")
