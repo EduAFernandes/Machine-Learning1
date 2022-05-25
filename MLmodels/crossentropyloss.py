@@ -1,3 +1,5 @@
+# Puting cross entropy formula in python lingo
+
 import math
 
 input_data =   [(0.26, 1),
